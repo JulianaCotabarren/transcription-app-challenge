@@ -19,3 +19,6 @@ Desarrolla una pequeña aplicación web utilizando Next.js, Tailwind CSS y TypeS
 - Reproduce el audio de la llamada.
 - Permite al usuario hacer clic en cualquier parte de la transcripción para saltar a esa parte del audio.
 - Proporciona controles de reproducción de audio básicos (reproducir, pausar, detener).
+
+### Nota: 
+- La aplicación cuenta con una funcionalidad adicional a las requeridas por la prueba técnica: permite la búsqueda de términos en la transcripción, resaltando aquellas palabras que concuerdan con la búsqueda realizada. De esta forma se mejora la experiencia de usuario.
