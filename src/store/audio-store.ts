@@ -1,7 +1,5 @@
+import { type AudioStore } from '@/types/types'
 import { createWithEqualityFn } from 'zustand/traditional'
-
-// Types
-import { type AudioStore } from '../../types'
 
 export const useAudioStore = createWithEqualityFn<AudioStore>((set) => ({
   audioTime: null,
